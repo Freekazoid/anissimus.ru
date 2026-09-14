@@ -1,0 +1,9 @@
+User-agent: *
+Crawl-delay: 1
+Host: http://anissimus.ru/
+Sitemap: http://anissimus.ru/sitemap.xml
+Disallow: /*?*
+Disallow: /*%
+Disallow: /index.php
+Disallow: /*?page=
+Disallow: /*&page=

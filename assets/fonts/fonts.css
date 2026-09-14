@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'AGOptCyrillic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AGOptCyrillic'),
+    url('./AGOptCyrillic.woff2') format('woff2'),
+    url('./AGOptCyrillic.woff') format('woff');
+  font-display: swap;
+}
+*{
+  font-family: 'AGOptCyrillic';
+  font-size: 1em;
+}
