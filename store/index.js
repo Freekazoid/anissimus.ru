@@ -145,10 +145,7 @@ export const state = {
     {page:7, id: 15, value: ['/image.php?part=3311', '/image.php?part=3312', '/image.php?part=3313', '/image.php?part=3314', '/image.php?part=3315', '/image.php?part=3316']},
     {page:7, id: 16, value: ['/image.php?part=3317', '/image.php?part=3318', '/image.php?part=3319']},
 
-    {page:7, id: 17, value: ['/image.php?part=3401', '/image.php?part=3402', '/image.php?part=3403', '/image.php?part=3404']},
-    {page:7, id: 18, value: ['/image.php?part=3405', '/image.php?part=3406', '/image.php?part=3407', '/image.php?part=3408', '/image.php?part=3409', '/image.php?part=3410']},
-    {page:7, id: 19, value: ['/image.php?part=3411', '/image.php?part=3412', '/image.php?part=3413', '/image.php?part=3414', '/image.php?part=3415', '/image.php?part=3416']},
-    {page:7, id: 20, value: ['/image.php?part=3417', '/image.php?part=3418', '/image.php?part=3419']},
+
 
 
 
