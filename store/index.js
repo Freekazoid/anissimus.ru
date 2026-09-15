@@ -107,6 +107,10 @@ export const state = {
     { page: 4, id: 30, value: ['/image.php?part=1351', '/image.php?part=1352', '/image.php?part=1353', '/image.php?part=1354'] }, //! new gelary
     { page: 4, id: 31, value: ['/image.php?part=1355', '/image.php?part=1356', '/image.php?part=1357'] }, //! new gelary
     { page: 4, id: 32, value: ['/image.php?part=1358', '/image.php?part=1359', '/image.php?part=1360', '/image.php?part=1361'] }, //! new gelary
+    { page: 4, id: 33, value: ['/image.php?part=2124', '/image.php?part=2125', '/image.php?part=2126', '/image.php?part=2127'] }, //! moved from public_interiors
+    { page: 4, id: 34, value: ['/image.php?part=2128', '/image.php?part=2129', '/image.php?part=2130', '/image.php?part=2131', '/image.php?part=2132', '/image.php?part=2133'] }, //! moved from public_interiors
+    { page: 4, id: 35, value: ['/image.php?part=2134', '/image.php?part=2135', '/image.php?part=2136', '/image.php?part=2137'] }, //! moved from public_interiors
+    { page: 4, id: 36, value: ['/image.php?part=2138', '/image.php?part=2139', '/image.php?part=2140'] }, //! moved from public_interiors
     
 
 
@@ -118,10 +122,6 @@ export const state = {
     {page:5, id: 6, value: ['/image.php?part=2116', '/image.php?part=2117', '/image.php?part=2118']},
     {page:5, id: 7, value: ['/image.php?part=2119', '/image.php?part=2120']},
     {page:5, id: 8, value: ['/image.php?part=2121', '/image.php?part=2122', '/image.php?part=2123']},
-    {page:5, id: 9, value: ['/image.php?part=2124', '/image.php?part=2125', '/image.php?part=2126', '/image.php?part=2127']},
-    {page:5, id: 10, value: ['/image.php?part=2128', '/image.php?part=2129', '/image.php?part=2130', '/image.php?part=2131', '/image.php?part=2132', '/image.php?part=2133']},
-    {page:5, id: 11, value: ['/image.php?part=2134', '/image.php?part=2135', '/image.php?part=2136', '/image.php?part=2137']},
-    {page:5, id: 12, value: ['/image.php?part=2138', '/image.php?part=2139', '/image.php?part=2140']},
 
     
     
