@@ -10,18 +10,21 @@ $isAllowed = (
   strpos($referer, 'dev.anissimus') !== false
 );
 
-if ($isAllowed && isset($images[intval($_GET['part'])]))
-{    
-  $img_path = __DIR__ . "/" . $images[intval($_GET['part'])]['file_name'];
-  $image = @imagecreatefromjpeg($img_path);
-  if ($image === false) {
-    $image = imagecreatefromjpeg(__DIR__ . "/galleries/no-image.jpeg");
+$img_path = __DIR__ . "/galleries/no-image.jpeg";
+
+if ($isAllowed && isset($images[intval($_GET['part'])])) {
+  $candidate = __DIR__ . "/" . $images[intval($_GET['part'])]['file_name'];
+  if (is_file($candidate)) {
+    $img_path = $candidate;
   }
-  header("Content-Type: image/jpeg");
-  imagejpeg($image);
-} else {
-  $image = imagecreatefromjpeg(__DIR__ . "/galleries/no-image.jpeg");
-  header("Content-Type: image/jpeg");
-  imagejpeg($image);
 }
+
+if (!is_file($img_path)) {
+  http_response_code(404);
+  exit;
+}
+
+header("Content-Type: image/jpeg");
+header("Content-Length: " . filesize($img_path));
+readfile($img_path);
 ?>
