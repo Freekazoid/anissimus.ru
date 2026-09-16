@@ -4,7 +4,6 @@ include_once "images_db.php";
 $referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
 $isAllowed = (
   strpos($referer, 'anissimus.ru') !== false ||
-  strpos($referer, 'web-23.online') !== false ||
   strpos($referer, 'localhost') !== false ||
   strpos($referer, '127.0.0.1') !== false ||
   strpos($referer, 'dev.anissimus') !== false
